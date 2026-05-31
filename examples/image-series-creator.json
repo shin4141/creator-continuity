@@ -1,0 +1,100 @@
+{
+  "as_of": "2026-06-01 image series handoff",
+  "project_name": "Quiet Future Portrait Series",
+  "aspire": "Create a consistent image series about a calm near-future world where technology feels intimate, handmade, and lived-in rather than glossy or corporate.",
+  "audience": {
+    "who": "Visual followers who like character-led worldbuilding, soft science fiction, and images that feel like stills from a larger story.",
+    "current_state": "They recognize the main character and expect each new image to preserve her mood, palette, and world rules.",
+    "needs": [
+      "Consistent character identity",
+      "A recognizable visual world",
+      "Enough variation to feel like a series, not a duplicate"
+    ],
+    "promise": "Each image should feel like another quiet moment from the same world."
+  },
+  "creative_intent": "Continue the image series with a new scene that preserves the character, palette, composition language, and audience promise.",
+  "current_state": "Best-known visual state: the strongest image shows the character seated by a small window at dusk, wearing a moss-green utility jacket, with warm lamp light, muted teal shadows, and a handmade device on the table.",
+  "what_changed": [
+    "Moved away from cinematic cyberpunk toward intimate domestic science fiction.",
+    "Reduced saturated neon and kept the palette around moss green, warm amber, muted teal, and soft graphite.",
+    "Made the character's face calmer and less fashion-editorial."
+  ],
+  "canon": [
+    "The main character has short black hair, soft tired eyes, and a small scar through the left eyebrow.",
+    "Her jacket is moss green with visible repairs and a brass zipper.",
+    "The world uses small handmade devices, paper labels, ceramic surfaces, and warm practical lights.",
+    "No corporate logos, weapons, luxury interiors, or hard military science fiction."
+  ],
+  "style": {
+    "medium": "AI-generated image series",
+    "visual_style": "Painterly realism with subtle texture, practical light, and restrained detail.",
+    "palette": "Moss green, warm amber, muted teal, soft graphite, off-white paper.",
+    "composition": "Quiet centered or near-centered character compositions with one clear story object.",
+    "lighting": "Dusk, window light, warm lamps, soft falloff.",
+    "tone": "Still, intimate, observant, and slightly melancholic.",
+    "format": "Vertical portrait or square series image"
+  },
+  "taste": {
+    "prefer": [
+      "Consistent face structure",
+      "Soft practical lighting",
+      "Handmade props",
+      "Negative space",
+      "Muted color contrast",
+      "A single visual story question"
+    ],
+    "avoid": [
+      "Generic AI-art gloss",
+      "Face drift",
+      "Over-polished skin",
+      "Neon cyberpunk defaults",
+      "Busy background detail",
+      "Inconsistent palette",
+      "Fashion-shoot posing"
+    ]
+  },
+  "causal_memory": [
+    "The repaired jacket became canon because it made the character feel lived-in rather than designed.",
+    "The handmade device works better than holograms because it keeps the future tactile and personal.",
+    "The dusk palette is the strongest anchor for continuity across sessions.",
+    "The best-known image succeeded because it had one story object, one emotional posture, and no spectacle."
+  ],
+  "external_context": [
+    "Used across image-generation AI sessions where character and palette drift are likely.",
+    "Images may be posted as a series, but this record is only a handoff, not a posting workflow.",
+    "The next session may not have access to prior generated images unless reference anchors are attached."
+  ],
+  "reference_anchor": [
+    "references/quiet-future-best-known-state.png",
+    "references/character-face-sheet.png",
+    "references/palette-board.png",
+    "notes/image-series-canon.md"
+  ],
+  "open_questions": [
+    "Should the next scene take place at the worktable, the stairwell, or a small rooftop garden?",
+    "Should the handmade device remain mysterious, or should its function become clearer?"
+  ],
+  "next_move": "Generate or prompt for one new scene using the best-known visual state as the anchor. Preserve the character face, repaired jacket, muted palette, soft lighting, and one-object composition.",
+  "stop_condition": [
+    "Stop if the prior character reference image is unavailable and the task requires exact character continuity.",
+    "Stop if asked to change the audience toward generic sci-fi spectacle.",
+    "Stop if the prompt needs facts about the world that are not in canon or reference anchors."
+  ],
+  "reanchor_condition": [
+    "Re-anchor if the character design changes.",
+    "Re-anchor if the palette shifts away from moss green, warm amber, muted teal, and graphite.",
+    "Re-anchor if the series becomes action-oriented, branded, or comedic.",
+    "Re-anchor if a new best-known image replaces the current reference."
+  ],
+  "next_ai_should_not": [
+    "Do not beautify the character into a generic AI portrait.",
+    "Do not change the face, scar, hair, or repaired jacket.",
+    "Do not introduce neon cyberpunk, weapons, logos, or luxury interiors.",
+    "Do not over-polish the skin, lighting, or surfaces.",
+    "Do not shift the audience promise from quiet worldbuilding to spectacle."
+  ],
+  "continuity_scope": "series",
+  "continuity_status": "READY",
+  "handoff_prompt": "Continue this image series using the attached Creator Continuity Record. Preserve the best-known visual state: short black hair, scar through the left eyebrow, moss-green repaired jacket, warm amber light, muted teal shadows, handmade device, and quiet composition. Start by drafting one image prompt for a new scene, and stop if exact character references are required but unavailable.",
+  "notes": "This record preserves visual continuity and taste. It does not guarantee identical image generation across models."
+}

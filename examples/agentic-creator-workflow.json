@@ -1,0 +1,102 @@
+{
+  "as_of": "2026-06-01 agentic workflow handoff",
+  "project_name": "Long-Running Creator Research And Drafting Loop",
+  "aspire": "Use AI agents as careful creative assistants that can carry work across long-running sessions without drifting away from the creator's reason, audience, taste, canon, or best-known state.",
+  "audience": {
+    "who": "Creators who want help across overnight tasks, repeated drafting runs, or multi-session creative workflows while keeping human judgment in charge.",
+    "current_state": "They want useful momentum from agents, but they are wary of agents quietly changing the purpose, voice, audience, or public promise of the work.",
+    "needs": [
+      "Clear limits on what agents may do",
+      "A preserved best-known state",
+      "Visible uncertainty instead of confident drift",
+      "A handoff that remains useful after many runs"
+    ],
+    "promise": "Agent work should return organized creative options without replacing the creator's taste or authority."
+  },
+  "creative_intent": "Prepare an agentic workflow that can organize, compare, outline, and prompt across long-running creative sessions while preserving Creator Continuity boundaries.",
+  "current_state": "Best-known state: the project has a stable Aspire, a creator-first audience, a non-hype voice, and a working outline with three candidate directions. Agents may expand and compare options, but they must not choose the public direction without creator review.",
+  "what_changed": [
+    "Separated allowed agent actions from prohibited agent actions.",
+    "Moved from autonomous completion language to candidate preparation and handoff language.",
+    "Made pause and re-anchor conditions explicit for long-running work."
+  ],
+  "canon": [
+    "The creator owns final judgment and public decisions.",
+    "Agents may prepare candidate options, but may not publish, post, scrape, or make revenue decisions.",
+    "Audience, Aspire, canon, and style cannot be changed by an agent run.",
+    "The agent should preserve uncertainty and return open questions rather than hiding them."
+  ],
+  "style": {
+    "medium": "Agent-supported creative workflow",
+    "voice": "Clear, calm, organized, and creator-respecting.",
+    "rhythm": "Structured handoff notes, concise option comparisons, and visible assumptions.",
+    "structure": "Inputs, allowed actions, candidate outputs, open questions, recommended next human decision.",
+    "tone": "Useful without becoming managerial or autonomous.",
+    "format": "Long-running session brief, overnight task brief, or repeated creative run record"
+  },
+  "taste": {
+    "prefer": [
+      "Candidate options with tradeoffs",
+      "Clear labels for assumptions",
+      "Comparisons against Aspire and audience",
+      "Prompts the creator can inspect before use",
+      "Small reversible next steps"
+    ],
+    "avoid": [
+      "Autonomous posting",
+      "External scraping",
+      "Generic engagement optimization",
+      "Changing canon to make output easier",
+      "Changing audience for broader appeal",
+      "Revenue or pricing decisions",
+      "Pretending unresolved questions are settled"
+    ]
+  },
+  "causal_memory": [
+    "Allowed actions were limited to drafting and organization because the creator wants momentum without losing judgment.",
+    "Variant comparison is useful because it shows tradeoffs instead of hiding taste choices inside one polished answer.",
+    "Prompt generation is allowed only when the prompt preserves the current record and can be reviewed before use.",
+    "The best-known state matters more than task completion speed during long-running agent work."
+  ],
+  "external_context": [
+    "The workflow may run across long sessions, overnight tasks, or repeated creative runs.",
+    "Agents may draft options, organize ideas, compare variants, prepare candidate outlines, and generate prompts.",
+    "Agents may not autonomously post, scrape external platforms, optimize for generic engagement, or make revenue decisions.",
+    "The creator should review outputs before any public-facing use."
+  ],
+  "reference_anchor": [
+    "records/current-creator-continuity.json",
+    "drafts/best-known-outline.md",
+    "notes/audience-and-style.md",
+    "notes/open-creative-questions.md"
+  ],
+  "open_questions": [
+    "Which candidate direction should the creator choose before the next drafting run?",
+    "Which unresolved canon points require human confirmation?",
+    "Should the next run generate outlines, prompts, or variant comparisons first?"
+  ],
+  "next_move": "Run a bounded agent task: organize the existing notes, prepare three candidate outlines, compare each against Aspire and audience, list unresolved questions, and stop before choosing the public direction.",
+  "stop_condition": [
+    "Stop if the agent needs missing canon, audience, or style information to continue safely.",
+    "Stop if the task asks the agent to post, publish, scrape, or make revenue decisions.",
+    "Stop if the agent starts optimizing for generic engagement instead of the stated audience promise.",
+    "Stop if the best-known state conflicts with new instructions."
+  ],
+  "reanchor_condition": [
+    "Re-anchor if Aspire, audience, canon, style, or public promise changes.",
+    "Re-anchor if a human selects a new best-known outline or direction.",
+    "Re-anchor after any long-running session that produces a substantial new draft, outline, or prompt set.",
+    "Re-anchor if repeated runs reveal a recurring drift pattern."
+  ],
+  "next_ai_should_not": [
+    "Do not autonomously post, publish, scrape, or make revenue decisions.",
+    "Do not change Aspire, audience, canon, style, or the best-known state to make the task easier.",
+    "Do not optimize for generic engagement, virality, or broad appeal unless the record is explicitly re-anchored.",
+    "Do not collapse multiple candidate directions into one final decision without creator review.",
+    "Do not hide uncertainty created during long-running work."
+  ],
+  "continuity_scope": "campaign",
+  "continuity_status": "READY",
+  "handoff_prompt": "Continue this agentic creator workflow using the attached Creator Continuity Record. You may draft options, organize ideas, compare variants, prepare candidate outlines, and generate prompts. You must not post, publish, scrape, change canon, change audience, optimize for generic engagement, or make revenue decisions. Start by preparing three candidate outlines and a comparison against Aspire, audience, style, canon, and best-known state.",
+  "notes": "This example is for bounded agent assistance across long-running creative work. It is not an autonomous publishing, scraping, analytics, or revenue workflow."
+}

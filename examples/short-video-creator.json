@@ -1,0 +1,102 @@
+{
+  "as_of": "2026-06-01 short video series handoff",
+  "project_name": "One-Minute Studio Notes",
+  "aspire": "Make short videos that help independent creators notice one practical creative decision at a time without turning the series into generic productivity advice.",
+  "audience": {
+    "who": "Independent creators who want useful creative process notes in a calm, repeatable short-video format.",
+    "current_state": "They scroll quickly, but they stay when the video names a real creative tension without shouting at them.",
+    "needs": [
+      "A fast but non-hype opening",
+      "One useful distinction",
+      "A repeatable ending that feels steady"
+    ],
+    "promise": "Each episode gives one precise creative move the viewer can try today."
+  },
+  "creative_intent": "Plan the next short video while preserving the series format, pacing, hook style, sound rhythm, visual rhythm, and audience promise.",
+  "current_state": "Best-known episode structure: 2-second quiet hook, 8-second problem naming, 30-second example, 12-second practical move, 5-second closing line over a still workspace shot.",
+  "what_changed": [
+    "Reduced the opening from a dramatic hook to a quiet tension line.",
+    "Kept one practical move per episode instead of a list of tips.",
+    "Made the ending repeatable: a calm closing line plus a still shot."
+  ],
+  "canon": [
+    "Each episode is about one creative decision, not a full tutorial.",
+    "The host never claims a guaranteed outcome.",
+    "The format uses voiceover, hands or workspace visuals, and minimal on-screen text.",
+    "The closing line should leave the viewer steadier, not pressured."
+  ],
+  "style": {
+    "medium": "Short-form video",
+    "hook": "A quiet tension line that names a problem without hype.",
+    "pacing": "Fast enough for short video, but with small pauses after the hook and before the closing line.",
+    "sound_rhythm": "Warm voiceover, low background texture, no aggressive beat drop.",
+    "visual_rhythm": "Hands, notebook, screen detail, object close-up, then a still workspace closing shot.",
+    "structure": "Hook, problem, example, practical move, closing line.",
+    "tone": "Calm, precise, useful, and creator-respecting.",
+    "format": "45 to 60 second vertical video"
+  },
+  "taste": {
+    "prefer": [
+      "One useful distinction",
+      "Natural voiceover",
+      "Minimal text overlays",
+      "Specific creator examples",
+      "Quiet visual cuts",
+      "A closing line that feels earned"
+    ],
+    "avoid": [
+      "Generic viral-bait hooks",
+      "Overloaded tip lists",
+      "Aggressive captions",
+      "Fake urgency",
+      "Unsafe claims",
+      "Changing the series promise",
+      "Overproduced stock-video energy"
+    ]
+  },
+  "causal_memory": [
+    "The previous video worked because the hook named a familiar tension in plain language instead of chasing shock.",
+    "The example section held attention because it showed a real workspace object while the voiceover explained one decision.",
+    "The slower closing shot made the episode feel trustworthy and different from generic productivity content.",
+    "Keeping one practical move protected the audience promise."
+  ],
+  "external_context": [
+    "Platform context: short vertical video where the first seconds matter, but the series should not imitate viral-bait pacing.",
+    "Session context: the next AI may be asked to write script, shot list, or edit notes, but not to post or optimize analytics.",
+    "Audience has low patience for vague creator advice and exaggerated claims."
+  ],
+  "reference_anchor": [
+    "references/best-known-episode-outline.md",
+    "references/video-003-transcript.md",
+    "references/series-shot-list.md",
+    "notes/one-minute-studio-notes-canon.md"
+  ],
+  "open_questions": [
+    "Should the next episode focus on choosing a constraint, preserving voice, or ending a draft?",
+    "Should the visual object be a notebook page, a timeline edit, or a messy desk detail?"
+  ],
+  "next_move": "Draft the next episode outline using the best-known structure. Start with three quiet hook options, then choose one and build a 45 to 60 second script around one practical creative move.",
+  "stop_condition": [
+    "Stop if asked to make unsafe claims or promise guaranteed creative results.",
+    "Stop if the episode turns into a generic viral advice format.",
+    "Stop if the series audience changes from independent creators to broad productivity content.",
+    "Stop if platform-specific claims are needed but not provided."
+  ],
+  "reanchor_condition": [
+    "Re-anchor if the episode length changes beyond 45 to 60 seconds.",
+    "Re-anchor if the host style changes from calm voiceover to high-energy direct address.",
+    "Re-anchor if the series becomes a tutorial series, product launch, or trend reaction format.",
+    "Re-anchor if a new episode outperforms the current best-known structure for reasons the creator wants to preserve."
+  ],
+  "next_ai_should_not": [
+    "Do not write a generic viral-bait hook.",
+    "Do not add fake urgency, fake metrics, or guaranteed outcomes.",
+    "Do not change the recurring format into a listicle or tutorial.",
+    "Do not overload the video with captions or too many tips.",
+    "Do not shift the audience promise away from one precise creative move."
+  ],
+  "continuity_scope": "series",
+  "continuity_status": "READY",
+  "handoff_prompt": "Continue this short-video series using the attached Creator Continuity Record. Preserve the best-known episode structure: quiet 2-second hook, problem naming, concrete example, one practical move, and still workspace closing shot. Start with three quiet hook options and do not use viral-bait, fake urgency, unsafe claims, or analytics promises.",
+  "notes": "This record supports scripts, shot lists, and edit notes. It is not an auto-posting or analytics workflow."
+}

@@ -92,8 +92,14 @@ The main fields are:
 
 ## Examples
 
+Creator Continuity is not only for writers. It can preserve continuity for image series, short video formats, newsletters, essays, threads, campaigns, and brand work.
+
+- [Blank template](examples/blank-record-template.json): copy-paste starting point for a new project.
+- [Agentic creator workflow](examples/agentic-creator-workflow.json): bounded long-running agent work without creative drift.
 - [Food essay](examples/food-essay.json): sensory food writing without flattening the creator's taste.
+- [Image series creator](examples/image-series-creator.json): character, visual taste, palette, and composition continuity.
 - [Newsletter creator](examples/newsletter-creator.json): recurring newsletter continuity across issues.
+- [Short video creator](examples/short-video-creator.json): format, pacing, hook, and rhythm continuity.
 - [X thread creator](examples/x-thread-creator.json): thread continuity without engagement-bait drift.
 
 ## Prompt-First Usage
