@@ -1,0 +1,88 @@
+{
+  "as_of": "2026-06-01 draft handoff",
+  "project_name": "Seasonal Japanese Food Essay",
+  "aspire": "Write about food as a way of preserving attention, seasonality, memory, and the quiet intelligence of everyday Japanese cooking.",
+  "audience": {
+    "who": "Readers who love Japanese food but are tired of surface-level travel or recipe content.",
+    "current_state": "They know the famous dishes, but may not yet notice the small choices that make a meal feel alive.",
+    "needs": [
+      "Sensory specificity",
+      "Cultural care without overexplaining",
+      "A reason to slow down"
+    ],
+    "promise": "The essay should make familiar food feel newly visible."
+  },
+  "creative_intent": "Continue an essay about a small neighborhood meal without turning it into restaurant review language.",
+  "current_state": "The opening scene exists. It has strong sensory detail, but the middle still needs a clearer emotional turn.",
+  "what_changed": [
+    "Shifted from a broad essay about Japanese cuisine to one meal as the anchor.",
+    "Removed generic praise and kept concrete details about steam, lacquer bowls, and timing."
+  ],
+  "canon": [
+    "Do not claim expertise beyond the creator's lived observation.",
+    "The restaurant name is intentionally omitted.",
+    "The essay is about attention, not ranking or recommendation."
+  ],
+  "style": {
+    "voice": "Observant, restrained, intimate, and exact.",
+    "rhythm": "Medium-length sentences with occasional short turns for emphasis.",
+    "structure": "Scene first, reflection second, broader meaning last.",
+    "tone": "Warm but unsentimental.",
+    "format": "Long-form essay draft."
+  },
+  "taste": {
+    "prefer": [
+      "Concrete sensory images",
+      "Quiet tension",
+      "Specific verbs",
+      "Understated emotional movement"
+    ],
+    "avoid": [
+      "Foodie cliches",
+      "Luxury language",
+      "Travel-guide framing",
+      "Overexplaining Japanese culture",
+      "Generic AI polish"
+    ]
+  },
+  "causal_memory": [
+    "The restaurant is unnamed because the piece is about perception, not promotion.",
+    "The essay avoids recipe detail because the emotional center is attention, not instruction.",
+    "The quieter voice was chosen to match the ordinary meal."
+  ],
+  "external_context": [
+    "Intended for a personal site or newsletter.",
+    "No need to optimize for search.",
+    "The creator wants the piece to feel locally observed, not globally packaged."
+  ],
+  "reference_anchor": [
+    "drafts/food-essay-opening.md",
+    "notes/seasonal-food-observations.md",
+    "style-samples/quiet-essay-sample.md"
+  ],
+  "open_questions": [
+    "Should the emotional turn center on memory, hospitality, or patience?",
+    "Is one paragraph of cultural context necessary, or would it flatten the piece?"
+  ],
+  "next_move": "Read the opening draft and write two possible middle-section continuations: one centered on memory, one centered on patience.",
+  "stop_condition": [
+    "Stop if asked to invent restaurant facts or cultural claims not present in the notes.",
+    "Stop if the piece starts sounding like a restaurant review.",
+    "Stop if the audience changes to tourists looking for recommendations."
+  ],
+  "reanchor_condition": [
+    "Re-anchor if the piece moves from essay to guide.",
+    "Re-anchor if the creator decides to name the restaurant.",
+    "Re-anchor if the publication venue changes."
+  ],
+  "next_ai_should_not": [
+    "Do not add star ratings, prices, or recommendation language.",
+    "Do not replace quiet specificity with broad praise.",
+    "Do not invent cultural explanations.",
+    "Do not make the prose more dramatic than the meal."
+  ],
+  "continuity_scope": "draft",
+  "continuity_status": "READY",
+  "handoff_prompt": "Continue this food essay using the attached Creator Continuity Record. Preserve the quiet sensory voice, the unnamed restaurant choice, and the focus on attention. Start by drafting two possible middle-section continuations, and stop if you need facts not present in the references.",
+  "notes": "The current opening is the strongest anchor. Do not restart from a generic food essay premise."
+}

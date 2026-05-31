@@ -1,0 +1,88 @@
+{
+  "as_of": "2026-06-01 issue planning handoff",
+  "project_name": "Notes for Independent Creators",
+  "aspire": "Help independent creators feel less alone while making sharper decisions about taste, tools, rhythm, and public work.",
+  "audience": {
+    "who": "Solo creators, writers, and small studio operators who use AI but do not want their work to become generic.",
+    "current_state": "They are curious, overloaded, and suspicious of advice that turns creative life into a funnel.",
+    "needs": [
+      "Language for what they already sense",
+      "Practical next steps",
+      "Respect for ambiguity"
+    ],
+    "promise": "Each issue should leave the reader steadier and more precise."
+  },
+  "creative_intent": "Plan the next newsletter issue about preserving creative continuity across AI sessions.",
+  "current_state": "The core argument is present: AI sessions can preserve text while losing purpose. The issue needs a concrete example and a strong closing note.",
+  "what_changed": [
+    "Moved from a tools-focused issue to a continuity-focused issue.",
+    "Added the phrase 'the reason the style exists' as the conceptual hinge."
+  ],
+  "canon": [
+    "The newsletter does not shame creators for using AI.",
+    "The newsletter does not present productivity as the only value.",
+    "The creator believes taste is relational and contextual, not a fixed score."
+  ],
+  "style": {
+    "voice": "Plainspoken, intelligent, companionable, and lightly skeptical.",
+    "rhythm": "Short paragraphs with clear turns.",
+    "structure": "Observation, tension, example, practical move, closing reflection.",
+    "tone": "Useful without becoming managerial.",
+    "format": "Newsletter issue outline or draft."
+  },
+  "taste": {
+    "prefer": [
+      "Clean conceptual language",
+      "Small practical examples",
+      "Sentences that feel spoken but edited",
+      "Respect for creative uncertainty"
+    ],
+    "avoid": [
+      "Hype",
+      "Growth-hack language",
+      "Overly therapeutic framing",
+      "Generic creator economy advice",
+      "Tool worship"
+    ]
+  },
+  "causal_memory": [
+    "The issue should begin with the pain of a new chat feeling subtly wrong because that is the reader's lived entry point.",
+    "The practical move should be a continuity record, not a new app or workflow overhaul.",
+    "The closing should protect creator judgment rather than promise automation."
+  ],
+  "external_context": [
+    "Recurring newsletter, likely read in email.",
+    "Audience has seen too many AI productivity frameworks.",
+    "The piece should stand alone without requiring the reader to know V12 Gate."
+  ],
+  "reference_anchor": [
+    "newsletter/archive/issue-014.md",
+    "notes/ai-continuity-observations.md",
+    "drafts/creator-continuity-outline.md"
+  ],
+  "open_questions": [
+    "Should the example be a food essay, a product launch, or a personal essay?",
+    "Should the issue include a full JSON example or a human-readable checklist?"
+  ],
+  "next_move": "Draft the example section in two versions: one narrative and one checklist-based. Keep the opening argument intact.",
+  "stop_condition": [
+    "Stop if the issue starts promising automation or guaranteed style preservation.",
+    "Stop if the tone shifts into startup marketing.",
+    "Stop if the audience changes from independent creators to enterprise teams."
+  ],
+  "reanchor_condition": [
+    "Re-anchor if the newsletter issue becomes a product announcement.",
+    "Re-anchor if the audience shifts to developers.",
+    "Re-anchor if the creator decides to include V12 Gate history directly."
+  ],
+  "next_ai_should_not": [
+    "Do not turn the issue into a listicle about AI prompts.",
+    "Do not add fake statistics.",
+    "Do not make the creator sound more certain than they are.",
+    "Do not optimize the title for clicks at the expense of trust."
+  ],
+  "continuity_scope": "series",
+  "continuity_status": "PAUSE",
+  "handoff_prompt": "Continue this newsletter issue using the attached Creator Continuity Record. Preserve the audience promise, the skepticism toward automation, and the central idea that style depends on Aspire. First resolve whether the example should be narrative or checklist-based; do not draft the final issue until that choice is clear.",
+  "notes": "Paused because the example format is still undecided."
+}

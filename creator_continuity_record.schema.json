@@ -1,0 +1,201 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/creator_continuity_record.schema.json",
+  "title": "Creator Continuity Record",
+  "description": "A restartable handoff record for preserving creative continuity across AI sessions.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "as_of",
+    "project_name",
+    "aspire",
+    "audience",
+    "creative_intent",
+    "current_state",
+    "what_changed",
+    "canon",
+    "style",
+    "taste",
+    "causal_memory",
+    "external_context",
+    "reference_anchor",
+    "open_questions",
+    "next_move",
+    "stop_condition",
+    "reanchor_condition",
+    "next_ai_should_not",
+    "continuity_scope",
+    "continuity_status",
+    "handoff_prompt"
+  ],
+  "properties": {
+    "as_of": {
+      "type": "string",
+      "description": "Timestamp, date, or context marker for when this record was written."
+    },
+    "project_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "aspire": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The creative north star: why the work exists and what it is trying to become."
+    },
+    "audience": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["who", "current_state"],
+      "properties": {
+        "who": {
+          "type": "string"
+        },
+        "current_state": {
+          "type": "string"
+        },
+        "needs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "promise": {
+          "type": "string"
+        }
+      }
+    },
+    "creative_intent": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The immediate creative objective for the current session or draft."
+    },
+    "current_state": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Where the work currently stands."
+    },
+    "what_changed": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "canon": {
+      "type": "array",
+      "description": "Facts, claims, world rules, brand truths, recurring motifs, or commitments that must remain true.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "style": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "voice": {
+          "type": "string"
+        },
+        "rhythm": {
+          "type": "string"
+        },
+        "structure": {
+          "type": "string"
+        },
+        "tone": {
+          "type": "string"
+        },
+        "format": {
+          "type": "string"
+        }
+      }
+    },
+    "taste": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["prefer", "avoid"],
+      "properties": {
+        "prefer": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "avoid": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "causal_memory": {
+      "type": "array",
+      "description": "Why key creative decisions were made.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "external_context": {
+      "type": "array",
+      "description": "Platform, timing, audience situation, source situation, or other context outside the draft.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reference_anchor": {
+      "type": "array",
+      "description": "Drafts, links, notes, examples, files, transcripts, or other reconnectable sources.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "open_questions": {
+      "type": "array",
+      "description": "Unresolved items and assumptions that should not be hidden.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "next_move": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Where the next AI should begin."
+    },
+    "stop_condition": {
+      "type": "array",
+      "description": "Conditions under which the next AI should stop instead of continuing.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reanchor_condition": {
+      "type": "array",
+      "description": "Conditions under which this record must be refreshed.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "next_ai_should_not": {
+      "type": "array",
+      "description": "Explicit prohibitions for the next AI.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "continuity_scope": {
+      "type": "string",
+      "enum": ["draft", "series", "campaign", "brand", "public-facing", "other"]
+    },
+    "continuity_status": {
+      "type": "string",
+      "enum": ["READY", "PAUSE", "BLOCK"]
+    },
+    "handoff_prompt": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Copy-paste prompt for the next AI session."
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

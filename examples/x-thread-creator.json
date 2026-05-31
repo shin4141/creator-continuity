@@ -1,0 +1,90 @@
+{
+  "as_of": "2026-06-01 thread handoff",
+  "project_name": "Creator Continuity X Thread",
+  "aspire": "Explain creative continuity in public without turning it into engagement bait or a generic AI productivity claim.",
+  "audience": {
+    "who": "Creators, writers, and builders who use AI chats for ongoing creative work.",
+    "current_state": "They have felt AI drift but may not have a name for it.",
+    "needs": [
+      "A simple diagnosis",
+      "A memorable distinction",
+      "A practical handoff move"
+    ],
+    "promise": "Name the problem clearly enough that they can fix it in their next session."
+  },
+  "creative_intent": "Create a short X thread introducing Creator Continuity Record as a handoff pattern.",
+  "current_state": "The core hook exists: 'A new AI chat can preserve your text and still lose your work.' The thread needs a non-hype explanation and a final practical prompt.",
+  "what_changed": [
+    "Rejected hooks that framed the problem as 'AI memory is broken.'",
+    "Chose creator responsibility and handoff clarity over platform criticism."
+  ],
+  "canon": [
+    "Creator Continuity is not a content generator.",
+    "READY means restartable, not publishable or high quality.",
+    "The record preserves Aspire, audience, style, canon, causal memory, and open questions."
+  ],
+  "style": {
+    "voice": "Direct, calm, memorable, and specific.",
+    "rhythm": "Short posts with one idea each.",
+    "structure": "Hook, problem, distinction, fields to preserve, status meanings, practical close.",
+    "tone": "Clear without dunking on users or tools.",
+    "format": "X thread"
+  },
+  "taste": {
+    "prefer": [
+      "Plain claims",
+      "Useful distinctions",
+      "One strong line per post",
+      "Concrete field names"
+    ],
+    "avoid": [
+      "Engagement bait",
+      "Viral-thread formulas",
+      "False urgency",
+      "Tool drama",
+      "Claims about guaranteed authenticity"
+    ]
+  },
+  "causal_memory": [
+    "The hook focuses on losing the work rather than blaming the AI because the repo is about handoff discipline.",
+    "The thread should mention READY/PAUSE/BLOCK to keep continuity from becoming a vague vibe check.",
+    "The close should invite a record, not an app signup."
+  ],
+  "external_context": [
+    "Public platform with high risk of oversimplification.",
+    "No autonomous posting.",
+    "No analytics claims.",
+    "Should be understandable without reading the repository."
+  ],
+  "reference_anchor": [
+    "README.md",
+    "creator_continuity_record.schema.json",
+    "docs/prompt-for-creative-agents.md"
+  ],
+  "open_questions": [
+    "Should the thread include a miniature record example?",
+    "Should the final post link to the repo or ask readers to copy a prompt?"
+  ],
+  "next_move": "Draft 8 to 10 posts. Keep each post self-contained and remove anything that sounds like a growth hack.",
+  "stop_condition": [
+    "Stop if asked to auto-post.",
+    "Stop if asked to invent performance metrics.",
+    "Stop if the thread starts promising perfect style preservation.",
+    "Stop if the framing becomes anti-AI rather than pro-continuity."
+  ],
+  "reanchor_condition": [
+    "Re-anchor if the target platform changes.",
+    "Re-anchor if the thread becomes a launch announcement.",
+    "Re-anchor if a specific audience segment is chosen."
+  ],
+  "next_ai_should_not": [
+    "Do not add fake numbers or case studies.",
+    "Do not write like a viral thread template.",
+    "Do not imply the record replaces human judgment.",
+    "Do not turn Creator Continuity into an analytics or automation product."
+  ],
+  "continuity_scope": "public-facing",
+  "continuity_status": "READY",
+  "handoff_prompt": "Continue this X thread using the attached Creator Continuity Record. Preserve the calm, non-hype framing. Draft 8 to 10 posts that explain the problem, the distinction between text and continuity, and the READY/PAUSE/BLOCK statuses. Do not include fake metrics or auto-posting language.",
+  "notes": "Public copy should be especially careful about overclaiming."
+}
