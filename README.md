@@ -94,6 +94,8 @@ The main fields are:
 
 Creator Continuity is not only for writers. It can preserve continuity for image series, short video formats, newsletters, essays, threads, campaigns, and brand work.
 
+Not sure which example to copy? See [docs/choose-an-example.md](docs/choose-an-example.md).
+
 - [Blank template](examples/blank-record-template.json): copy-paste starting point for a new project.
 - [Agentic creator workflow](examples/agentic-creator-workflow.json): bounded long-running agent work without creative drift.
 - [Food essay](examples/food-essay.json): sensory food writing without flattening the creator's taste.
