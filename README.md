@@ -116,6 +116,10 @@ Before asking a new AI chat to continue a creative project:
 
 See [docs/prompt-for-creative-agents.md](docs/prompt-for-creative-agents.md) for a reusable agent prompt.
 
+## CI
+
+CI validates the example records against the schema using a check-only workflow. CI does not post, scrape, publish, analyze metrics, or run creator automation.
+
 ## Boundary
 
 Creator Continuity is intentionally small. It does not automate publishing, scrape platforms, judge creator identity, or optimize for metrics. Its job is narrower: preserve enough creative continuity that the next session can restart from the actual work instead of starting over with a plausible imitation.
