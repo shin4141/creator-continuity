@@ -1,0 +1,38 @@
+{
+  "as_of": "",
+  "project_name": "",
+  "aspire": "",
+  "audience": {
+    "who": "",
+    "current_state": "",
+    "needs": [],
+    "promise": ""
+  },
+  "creative_intent": "",
+  "current_state": "",
+  "what_changed": [],
+  "canon": [],
+  "style": {
+    "voice": "",
+    "rhythm": "",
+    "structure": "",
+    "tone": "",
+    "format": ""
+  },
+  "taste": {
+    "prefer": [],
+    "avoid": []
+  },
+  "causal_memory": [],
+  "external_context": [],
+  "reference_anchor": [],
+  "open_questions": [],
+  "next_move": "",
+  "stop_condition": [],
+  "reanchor_condition": [],
+  "next_ai_should_not": [],
+  "continuity_scope": "draft",
+  "continuity_status": "PAUSE",
+  "handoff_prompt": "",
+  "notes": ""
+}

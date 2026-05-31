@@ -8,6 +8,14 @@ Creator Continuity Record is a small handoff structure for preserving creative c
 
 Creator Continuity does not only preserve style. It preserves Aspire: the reason the style exists.
 
+## Start In 3 Minutes
+
+1. Copy [examples/blank-record-template.json](examples/blank-record-template.json) beside your draft or notes.
+2. Fill in Aspire, audience, style, canon, current_state, the best-known state of the work, failure patterns, next_move, and next_ai_should_not.
+3. Paste the record into a new AI chat with [docs/prompt-for-creative-agents.md](docs/prompt-for-creative-agents.md).
+
+This is prompt-first. You do not need automation, a bot, analytics, or a publishing workflow to use it.
+
 ## What This Is
 
 - A restartable continuity record for creators working across AI chats.

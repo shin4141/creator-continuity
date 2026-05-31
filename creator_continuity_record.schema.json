@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.com/creator_continuity_record.schema.json",
+  "$id": "https://github.com/shin4141/creator-continuity/blob/main/creator_continuity_record.schema.json",
   "title": "Creator Continuity Record",
   "description": "A restartable handoff record for preserving creative continuity across AI sessions.",
   "type": "object",
@@ -34,12 +34,10 @@
       "description": "Timestamp, date, or context marker for when this record was written."
     },
     "project_name": {
-      "type": "string",
-      "minLength": 1
+      "type": "string"
     },
     "aspire": {
       "type": "string",
-      "minLength": 1,
       "description": "The creative north star: why the work exists and what it is trying to become."
     },
     "audience": {
@@ -66,12 +64,10 @@
     },
     "creative_intent": {
       "type": "string",
-      "minLength": 1,
       "description": "The immediate creative objective for the current session or draft."
     },
     "current_state": {
       "type": "string",
-      "minLength": 1,
       "description": "Where the work currently stands."
     },
     "what_changed": {
@@ -157,7 +153,6 @@
     },
     "next_move": {
       "type": "string",
-      "minLength": 1,
       "description": "Where the next AI should begin."
     },
     "stop_condition": {
@@ -191,7 +186,6 @@
     },
     "handoff_prompt": {
       "type": "string",
-      "minLength": 1,
       "description": "Copy-paste prompt for the next AI session."
     },
     "notes": {
