@@ -1,5 +1,7 @@
 # Creator Continuity
 
+[![Validate examples](https://github.com/shin4141/creator-continuity/actions/workflows/validate-examples.yml/badge.svg)](https://github.com/shin4141/creator-continuity/actions/workflows/validate-examples.yml)
+
 Weak AI makes obvious mistakes.
 Strong AI can drift intelligently.
 
