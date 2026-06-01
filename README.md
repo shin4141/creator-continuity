@@ -1,5 +1,10 @@
 # Creator Continuity
 
+Old chats get polluted.
+New chats forget.
+
+Creator Continuity helps you carry the parts that matter: Aspire, audience, style, canon, best-known state, success patterns, failure patterns, and next-AI constraints.
+
 Every new AI chat can feel like starting with a different assistant.
 
 A creator may preserve the draft text but lose the deeper continuity: audience, taste, style, canon, causal memory, external context, unresolved questions, and the reason the work exists.
@@ -7,6 +12,8 @@ A creator may preserve the draft text but lose the deeper continuity: audience, 
 Creator Continuity Record is a small handoff structure for preserving creative continuity across AI sessions. It helps the next AI reconnect to Aspire, audience, style, canon, causal memory, unresolved items, next move, and what it must not change.
 
 Creator Continuity does not only preserve style. It preserves Aspire: the reason the style exists.
+
+Ordinary chat handoff templates may be enough for casual conversation. Creator Continuity is for long-running creative work, image and video series, and agentic creator workflows. It is not only for writers.
 
 ## Start In 3 Minutes
 
@@ -95,6 +102,8 @@ The main fields are:
 Creator Continuity is not only for writers. It can preserve continuity for image series, short video formats, newsletters, essays, threads, campaigns, and brand work.
 
 Not sure which example to copy? See [docs/choose-an-example.md](docs/choose-an-example.md).
+
+To understand how success and failure become reusable continuity, see [docs/pattern-memory.md](docs/pattern-memory.md).
 
 - [Blank template](examples/blank-record-template.json): copy-paste starting point for a new project.
 - [Agentic creator workflow](examples/agentic-creator-workflow.json): bounded long-running agent work without creative drift.
