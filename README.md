@@ -1,9 +1,12 @@
 # Creator Continuity
 
+Weak AI makes obvious mistakes.
+Strong AI can drift intelligently.
+
 Old chats get polluted.
 New chats forget.
 
-Creator Continuity helps you carry the parts that matter: Aspire, audience, style, canon, best-known state, success patterns, failure patterns, and next-AI constraints.
+Creator Continuity helps you carry what should not drift: Aspire, audience, voice, canon, best-known state, success patterns, failure patterns, and next-AI constraints.
 
 Every new AI chat can feel like starting with a different assistant.
 
@@ -15,6 +18,8 @@ Creator Continuity does not only preserve style. It preserves Aspire: the reason
 
 Ordinary chat handoff templates may be enough for casual conversation. Creator Continuity is for long-running creative work, image and video series, and agentic creator workflows. It is not only for writers.
 
+For article/X copy, see [docs/exposure-summary.md](docs/exposure-summary.md).
+
 ## Start In 3 Minutes
 
 1. Copy [examples/blank-record-template.json](examples/blank-record-template.json) beside your draft or notes.
@@ -22,6 +27,14 @@ Ordinary chat handoff templates may be enough for casual conversation. Creator C
 3. Paste the record into a new AI chat with [docs/prompt-for-creative-agents.md](docs/prompt-for-creative-agents.md).
 
 This is prompt-first. You do not need automation, a bot, analytics, or a publishing workflow to use it.
+
+## Who This Is For
+
+- Casual chat handoff: If you only want to continue an ordinary conversation, a lightweight handoff note may be enough.
+- Long-running creators: Use Creator Continuity when you want to preserve voice, audience, Aspire, canon, best-known state, and success/failure patterns across sessions.
+- Agentic / overnight AI workflows: Use Creator Continuity before long-running AI-agent work to define what the agent may do, what it must preserve, and where it must stop.
+
+Creator Continuity is not only for writers. It applies to image-series creators, short-video creators, newsletter creators, X thread creators, and agentic creator workflows.
 
 ## What This Is
 
