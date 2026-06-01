@@ -14,6 +14,8 @@ A creator may preserve the draft text but lose the deeper continuity: audience, 
 
 Creator Continuity Record is a small handoff structure for preserving creative continuity across AI sessions. It helps the next AI reconnect to Aspire, audience, style, canon, causal memory, unresolved items, next move, and what it must not change.
 
+Creator Continuity is a creator-facing derivative of [Decision-OS V12 Gate](https://github.com/shin4141/decision-os-v12-completion-integrity). V12 Gate checks whether AI-assisted work can safely restart after completion; Creator Continuity applies the same restartability idea to creative work, AI chats, image/video series, and agentic creator workflows.
+
 Creator Continuity does not only preserve style. It preserves Aspire: the reason the style exists.
 
 Ordinary chat handoff templates may be enough for casual conversation. Creator Continuity is for long-running creative work, image and video series, and agentic creator workflows. It is not only for writers.
