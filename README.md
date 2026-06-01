@@ -20,9 +20,33 @@ Ordinary chat handoff templates may be enough for casual conversation. Creator C
 
 For article/X copy, see [docs/exposure-summary.md](docs/exposure-summary.md).
 
+## Choose Your Path
+
+### 1. Paste Mode — For Manual LLM Users
+
+Use this if you are working in ChatGPT, Claude, Gemini, or another AI chat by hand.
+
+If filling a full record feels heavy, do not start by filling it alone. Paste the [Lite template](examples/creator-continuity-lite.md) into your AI chat and ask the AI to help you complete it. You do not need to understand JSON first, and you do not need to fill the full record alone.
+
+The value is that the next AI can help reconstruct voice, audience, Aspire, best-known state, success patterns, failure patterns, and constraints.
+
+### 2. Fork Mode — For Automation / Agentic Workflows
+
+Use this if you are working with AI agents, coding agents, content agents, overnight workflows, or semi-automated creative pipelines.
+
+For agentic workflows, Creator Continuity works as a pre-flight handoff layer. Before a new agent starts, it should read the continuity record so it does not restart from zero or repeat known mistakes.
+
+The record should carry not only current instructions, but also success patterns, failure patterns, stop conditions, and next-AI constraints. See [docs/manual-vs-automation.md](docs/manual-vs-automation.md).
+
+### 3. Example Mode — For Reference
+
+Use this if you want to see what a finished record can look like.
+
+Examples are references, not required starting points. You should not feel forced to manually edit the largest example first. Start from Lite, then upgrade to a full record when the project needs it.
+
 ## Start In 3 Minutes
 
-1. Copy [examples/blank-record-template.json](examples/blank-record-template.json) beside your draft or notes.
+1. Start with [examples/creator-continuity-lite.md](examples/creator-continuity-lite.md) or copy [examples/blank-record-template.json](examples/blank-record-template.json) beside your draft or notes.
 2. Fill in Aspire, audience, style, canon, current_state, the best-known state of the work, failure patterns, next_move, and next_ai_should_not.
 3. Paste the record into a new AI chat with [docs/prompt-for-creative-agents.md](docs/prompt-for-creative-agents.md).
 
@@ -114,10 +138,13 @@ The main fields are:
 
 Creator Continuity is not only for writers. It can preserve continuity for image series, short video formats, newsletters, essays, threads, campaigns, and brand work.
 
+Examples below are finished references. You do not need to start here. Start with [Lite](examples/creator-continuity-lite.md) if you want the AI to help you build your first record.
+
 Not sure which example to copy? See [docs/choose-an-example.md](docs/choose-an-example.md).
 
 To understand how success and failure become reusable continuity, see [docs/pattern-memory.md](docs/pattern-memory.md).
 
+- [Lite template](examples/creator-continuity-lite.md): short prompt-first starting point for manual AI chat.
 - [Blank template](examples/blank-record-template.json): copy-paste starting point for a new project.
 - [Agentic creator workflow](examples/agentic-creator-workflow.json): bounded long-running agent work without creative drift.
 - [Food essay](examples/food-essay.json): sensory food writing without flattening the creator's taste.
